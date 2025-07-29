@@ -174,16 +174,16 @@
 /* Responsive styles for the logo and Name */
 @media (max-width: 768px) {
   .header {
-    height: 95px;
+    height: 90px;
     }
     .header img {
-        width: 90px;
+        width: 85px;
         height: auto;
         margin-right: 90px;
     }
 
     .school-name {
-        font-size: 22px;
+        font-size: 18px;
         margin-right: 50px;
         margin-left: -80px;
     }
