@@ -174,16 +174,16 @@
 /* Responsive styles for the logo and Name */
 @media (max-width: 768px) {
   .header {
-    height: 38px;
+    height: 65px;
     }
     .header img {
-        width: 50px;
+        width: 70px;
         height: auto;
         margin-right: 90px;
     }
 
     .school-name {
-        font-size: 15px;
+        font-size: 20px;
         margin-right: 50px;
         margin-left: -80px;
     }
@@ -216,16 +216,16 @@
 
 @media (max-width: 480px) {
     .hero {
-        padding: 60px 10px; /* further reduce padding */
-        padding-bottom: 120px; /* ensure space for fixed elements */
+        padding: 50px 10px; /* further reduce padding */
+        padding-bottom: 140px; /* ensure space for fixed elements */
     }
 
     .hero h1 {
-        font-size: 26px; /* smaller heading for very small devices */
+        font-size: 35px; /* smaller heading for very small devices */
     }
 
     .hero p {
-        font-size: 12px;
+        font-size: 20px;
         margin-left: 6px; /* adjust margin for smaller screens */
     }
 }

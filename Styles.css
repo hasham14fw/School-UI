@@ -234,7 +234,6 @@ body {
     color: rgb(231, 0, 0);
     padding: 170px 20px;
     background-color: rgba(0,0,0,0.5);
-    backdrop-filter: brightness(0.6);
     shaddow: 0 4px 8px #4885fff8;
    
 }
@@ -312,7 +311,7 @@ body {
 }
 
 
-/*============================  Animated Boxes for Students and Staff ============================*/
+/*============================  Animated Boxes for News ============================*/
 .rotating-line {
   position: relative;
   display: flex;
@@ -389,6 +388,26 @@ body {
   z-index: 1;
   text-indent: 20px; /* Space in the first line */
   margin: 0;
+}
+@media (max-width: 768px) {
+  .rotating-line {
+    padding: 15px 0;
+  }
+
+  .news-box {
+    width: 90vw;
+    height: auto;
+    padding: 15px 20px;
+  }
+
+  #news-heading {
+    font-size: 22px;
+  }
+
+  #news-paragraph {
+    font-size: 15px;
+    text-indent: 15px;
+  }
 }
 
 
