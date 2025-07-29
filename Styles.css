@@ -388,6 +388,9 @@ body {
   z-index: 1;
   text-indent: 20px; /* Space in the first line */
   margin: 0;
+  
+  text-align: justify; /* Justify text for better readability */
+  text-justify: inter-word; /* Ensure proper justification */
 }
 @media (max-width: 768px) {
   .rotating-line {
@@ -401,17 +404,20 @@ body {
   }
 
   #news-heading {
+    text-align: left;
     font-size: 22px;
   }
 
   #news-paragraph {
     font-size: 15px;
     text-indent: 15px;
+  text-align: justify;
+  text-justify: inter-word; 
   }
 }
 
 
-/*============================  Vision and History Section ============================*/
+/*============================  Vision and History Section =========================*/
 
 .section-container {
   display: flex;
