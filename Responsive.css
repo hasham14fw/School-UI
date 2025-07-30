@@ -263,6 +263,7 @@
     overflow: hidden;
     border-radius: 4px;
     z-index: 1;
+    box-shadow: #ff2525 0px 0px 0px 0px;
 }
 
 .sidebar .admissions-btn::before {

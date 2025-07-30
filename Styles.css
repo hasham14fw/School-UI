@@ -329,7 +329,7 @@ body {
   padding: 10px 30px;
   border-radius: 12px;
   width: 95vw;
-  height: 200px;
+  height: 120px;
   text-align: left;
   z-index: 1;
   overflow: hidden;
@@ -625,10 +625,11 @@ body {
 /*============================  Footer ============================*/
 .footer {
   background-color: #0c005b;
-  padding: 20px;
   text-align: center;
+  padding: 20px;
   font-family: 'Times New Roman', serif;
   margin-bottom: 0px;
+
 }
 
 .footer-content p {
