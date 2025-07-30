@@ -174,16 +174,16 @@
 /* Responsive styles for the logo and Name */
 @media (max-width: 768px) {
   .header {
-    height: 85px;
+    height: 80px;
     }
     .header img {
-        width: 85px;
+        width: 75px;
         height: auto;
         margin-right: 90px;
     }
 
     .school-name {
-        font-size: 19px;
+        font-size: 18px;
         margin-right: 50px;
         margin-left: -80px;
     }
@@ -252,6 +252,7 @@
 @media (max-width: 768px) {
    
 .sidebar .admissions-btn {
+    font-family: 'Times New Roman', Times, serif;
     position: relative;
     background: transparent;
     color: rgb(128, 255, 0);
