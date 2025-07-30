@@ -287,6 +287,9 @@
 }
 /* ✅ Responsive tweaks */
 @media (max-width: 768px) {
+  .footer {
+    margin-bottom: 0px;
+  }
   .footer-content p {
     font-size: 14px;
   }
@@ -303,6 +306,9 @@
 }
 
 @media (max-width: 480px) {
+ .footer {
+    margin-bottom: 0px;
+  }
   .footer-content p {
     font-size: 12px;
   }
